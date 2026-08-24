@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog: Dilemas Digitais</title>
+    <style>
+        body {
+            /* Corrigido o erro das aspas na cor de fundo */
+            background-color: #f4f4f9; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            padding: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        main {
+            background-color: #d4adcf;
+            color: #183C63;
+            display: flex;
+            align-items: center;
+            margin: 0 auto 30px auto;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        /* Ajuste para não deixar todo o texto do div em negrito, apenas os títulos ou classes específicas */
+        div p {
+            line-height: 1.5;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .solucao {
+            font-weight: bold;
+            color: #183C63;
+            background-color: #e6f2ff;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #183C63;
+        }
+
+        .imagem {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .conteudo-texto {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+        
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dilemas Digitais 🌐</h1>
+        <p>Explorando os desafios do mundo conectado e propondo soluções práticas.</p>
+        <button>❤️<span>0</span></button>
+        <button>👍<span>0</span></button>
+    </header>
+
+    <main>
+        <!-- Artigo 1 -->
+        <article>
+            <div class="conteudo-texto">
+                <h2>1. O Dilema das Telas vs. Vida Real</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Passar horas rolando o feed infinito pode nos afastar das experiências do mundo físico, prejudicando o sono e os estudos.</p>
+                <p class="solucao">💡 Solução: Estabeleça limites de tempo nos aplicativos do celular e crie "zonas livres de tecnologia" em casa (como na hora das refeições e antes de dormir).</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="imagem-blog.png" alt="Símbolo de tempo de tela" class="imagem">
+            </div>
+        </article>
+
+        <!-- Artigo 2 -->
+        <article>
+            <div class="conteudo-texto">
+                <h2>2. A Armadilha da Comparação (FOMO)</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Ver a vida "perfeita" dos outros nas redes sociais pode gerar ansiedade e a sensação de estar sempre perdendo algo (Fear Of Missing Out).</p>
+                <p class="solucao">💡 Solução: Lembre-se de que a internet é um "palco editado". Faça uma limpa nas suas redes e pare de seguir contas que te fazem sentir mal consigo mesmo.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="imagem-blog.png" alt="Símbolo de redes sociais" class="imagem">
+            </div>
+        </article>
+
+        <!-- Artigo 3 -->
+        <article>
+            <div class="conteudo-texto">
+                <h2>3. Fake News e a Desinformação</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Receber e repassar notícias chocantes sem checar a fonte causa confusão, espalha mentiras e pode prejudicar pessoas inocentes.</p>
+                <p class="solucao">💡 Solução: Pare e pense antes de compartilhar. Verifique a informação em sites confiáveis e de agências de checagem de fatos. Na dúvida, não compartilhe!</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="imagem-blog.png" alt="Símbolo de checagem de fatos" class="imagem">
+            </div>
+        </article>
+
+        <!-- Artigo 4 -->
+        <article>
+            <div class="conteudo-texto">
+                <h2>4. O Fim da Privacidade?</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Expor dados pessoais, rotina e localização em tempo real pode atrair pessoas mal-intencionadas e colocar sua segurança em risco.</p>
+                <p class="solucao">💡 Solução: Mantenha seus perfis privados, desative a localização em tempo real e nunca compartilhe senhas, endereços ou informações da sua escola online.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="imagem-blog.png" alt="Cadeado de segurança" class="imagem">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Dilemas Digitais | Desenvolvido por Alexandra</p>
+    </footer>
+
+    <script>
+        const botoes = document.querySelectorAll("button");
+        botoes.forEach(function (botao) {
+            let curtiu = false;
+            botao.addEventListener("click", botaoClicado);
+            function botaoClicado() {
+                let texto = botao.querySelector("span");
+                if (curtiu === false) {
+                    texto.textContent++;
+                    curtiu = true;
+                } else {
+                    texto.textContent--;
+                    curtiu = false;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
